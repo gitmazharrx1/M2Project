@@ -30,7 +30,7 @@ a{
     font-size: 1.5em;
     color: white;
 }
-a:hover{
+.nav-pages > a:hover{
     background-color: #E02C6D;
     text-align: center;
     transition-duration: .5s;
