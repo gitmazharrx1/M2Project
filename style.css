@@ -25,14 +25,25 @@ header{
 }
 a{
     text-decoration: none;
-    padding-right: 30px;
+    padding-right: 15px;
+    padding-left: 15px;
     font-size: 1.5em;
     color: white;
+}
+a:hover{
+    background-color: #E02C6D;
+    text-align: center;
+    transition-duration: .5s;
 }
 .login{
     padding-right: 20px;
     background-color: #E02C6D;
     padding: 8px 10px;
+}
+.login:hover{
+    background-color: white;
+    color: black;
+    transition-duration: .5s;
 }
 /*---------  Nav END -------------
 -------------------------------- */
@@ -48,6 +59,10 @@ a{
     height: 400px;
     margin-right: 150px;
 }
+.banner-image > img:hover{
+    transform: scale(1.2);
+    transition-duration: 2s ;
+}
 .banner-text{
     font-size: 1.5em;
     color: white;
@@ -56,6 +71,12 @@ a{
 .banner-text > a{
     background-color: #E02C6D;
     padding: 8px 10px;
+}
+.banner-text > a:hover{
+    background-color: white;
+    color: black;
+    transition-duration: .5s;
+    
 }
 /* Banner Section EnD */
 
@@ -119,6 +140,13 @@ a{
     padding: 8px 10px;
     
 }
+.link-watch-now:hover{
+    background-color: white;
+    color: black;
+    transition-duration: .5s;
+    border: 1px solid black;
+    
+}
 .watch-now{
     margin-top: 30px;
 }
@@ -129,6 +157,10 @@ a{
     width: 483.87px;
     height: 110px;
     padding-right: 100px;
+}
+.footer-logo > img:hover{
+    transform: scale(1.2);
+    transition-duration: 2s ;
 }
 .social-icon{
     padding-left: 40px;
